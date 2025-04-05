@@ -3,17 +3,22 @@
   "version": "1.0.0",
   "description": "a backend at chai aur code channel",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "javascript backend chai"
+    "url": "https://github.com/asius09/Backend.git"
   },
   "keywords": [
     "javascript",
     "backend"
   ],
   "author": "bobby",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
